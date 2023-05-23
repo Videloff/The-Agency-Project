@@ -124,6 +124,17 @@ input::placeholder {
   margin-bottom: 20px;
 }
 
+.ccard {
+  width: 250px;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.card-city-img {
+  width: 250px;
+  height: 180px;
+}
+
 /* TEXT */
 
 .text {
