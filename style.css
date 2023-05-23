@@ -60,7 +60,7 @@ body {
   background-color: #E83283;
   border-radius: 6px;
   padding-left: 10px;
-  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: rgb(255, 255, 255);
@@ -70,7 +70,7 @@ body {
   background-color: hsl(333, 80%, 55%, 0.7);
   border-radius: 6px;
   padding-left: 10px;
-  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: rgb(54, 56, 58);
@@ -92,6 +92,54 @@ input:focus {
 
 input::placeholder {
   color: rgb(222, 229, 236, 0.4);
+}
+
+/* COMMENT */
+
+.body-com {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.incom {
+  width: 500px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid rgb(222, 229, 236);
+}
+
+.scom {
+  border: none;
+  background-color: transparent;
+}
+
+.scom-primary {
+  background-color: #E83283;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.scom-primary:hover {
+  background-color: hsl(333, 62%, 50%);
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.combtn {
+  margin-left: -20px;
 }
 
 /* CARD */
@@ -234,6 +282,11 @@ input::placeholder {
   height: 100vh
 }
 
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .ch {
   margin-left: auto;
   margin-right: auto;
@@ -278,6 +331,10 @@ input::placeholder {
 .lg {
   width: 100%;
   height: auto;
+}
+
+.mklower {
+  margin-top: 150px;
 }
 
 /* COLORS */
