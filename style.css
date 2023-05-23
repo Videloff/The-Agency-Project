@@ -94,6 +94,21 @@ input::placeholder {
   color: rgb(222, 229, 236, 0.4);
 }
 
+textarea {
+  color: rgb(222, 229, 236);
+  resize: none;
+  overflow: hidden;
+}
+
+textarea:focus {
+  outline: none;
+  color: rgb(222, 229, 236);
+}
+
+textarea::placeholder {
+  color: rgb(222, 229, 236, 0.4);
+}
+
 /* COMMENT */
 
 .body-com {
@@ -138,8 +153,34 @@ input::placeholder {
   border: 1px solid rgb(255, 255, 255);
 }
 
+.scomp {
+  border: none;
+  background-color: transparent;
+}
+
+.scomp-primary {
+  background-color: #E83283;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.scomp-primary:hover {
+  background-color: hsl(333, 62%, 50%);
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
 .combtn {
   margin-left: -20px;
+  margin-top: 5px;
 }
 
 /* CARD */
@@ -282,7 +323,7 @@ input::placeholder {
   height: 100vh
 }
 
-.end {
+.end-r {
   display: flex;
   justify-content: flex-end;
 }
@@ -295,6 +336,10 @@ input::placeholder {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.fill {
+  display: flex;
 }
 
 .mt1 {
